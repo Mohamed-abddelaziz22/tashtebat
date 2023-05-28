@@ -1,0 +1,570 @@
+@media(max-width:500px){
+body{
+    width: 100%;
+    
+    
+}
+
+.all-nav {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 0px 70px 0px rgb(24, 24, 253);
+  border-radius: 0;
+
+  
+}
+.all-main-h1-pt {
+  margin-top: 200px;
+}
+
+.all-nav a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(24, 24, 253);
+    font-size: 17px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: "Alkatra", cursive;
+  }
+  .nav-lift a {
+    margin-left: 10px;
+  }
+  
+  .nav-right a {
+    margin-right: 10px;
+  }
+  .all-main-h1-pt h1{
+    font-size: 23px;
+  }
+  .all-main-h1-pt {
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+.all-main-h1-pt p{
+    font-size: 20px;
+    width: 370px;
+}
+.all-slider img{
+    width:370px ;
+    height: 370px;
+}
+.all-slider{
+    width: 350px;
+    height:400px;
+}
+.all-button {
+    position: relative;
+    top: 400px;
+  }
+
+  .all-section3-img-h1-p{
+    height: fit-content;
+    display: block;
+    margin-top: 30px;
+    height: fit-content;
+    /* border: 10px solid; */
+
+  } 
+  .all-section3-img-h1-p img{
+    width:370px ;
+    height: 370px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+.sec3-h1-p{
+    width: 400px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.sec3-h1-p h1{
+font-size: 20px;
+text-align: center;
+}
+.sec3-h1-p p{
+  width: 370px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+.khd2 {
+    margin-left: -50px;
+    height: fit-content;
+}
+.khd2 li a{
+  
+color: #000;
+font-size: 18px;
+
+
+}
+
+
+.sec4-h1-p {
+    width: 400px;
+    margin: 0px auto 30px auto;
+    height: fit-content;
+  }
+  .sec4-h1-p p {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 370;
+    width: 370px;
+  }
+  .sec4-h1-p h1 {
+    font-size: 20px;
+    color: rgb(24, 24, 253);
+  }
+  
+  .all-sec4 img {
+    border-radius: 11px;
+    width: 370px;
+    height: 370px;
+    box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+  }
+
+
+  .sec5-end h2{
+    font-size: 21px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sec5-end button {
+    bottom: unset;
+    padding: 12px 17px;
+    border: none;
+    background-color: #6c757d;
+    font-size: 18px;
+    border-radius: 11px;
+    color: #fff;
+    font-weight: 600;
+    margin: 30px;
+    width: 300px;
+  }
+  .all-sec4{
+    margin-top: 10px;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px) {
+  body{
+      width: 100%;
+      
+      
+  }
+  
+  .all-nav {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 0px 70px 0px rgb(24, 24, 253);
+    border-radius: 0;
+    
+  }
+  .all-main-h1-pt {
+    margin-top: 200px;
+  }
+  
+  .all-nav a {
+      width: 100%;
+      text-decoration: none;
+      color: rgb(24, 24, 253);
+      font-size: 17px;
+      padding: 10px;
+      transition: all 0.2s ease;
+      border-radius: 3px;
+      font-weight: 600;
+      font-family: "Alkatra", cursive;
+    }
+    .nav-lift a {
+      margin-left: 10px;
+    }
+    
+    .nav-right a {
+      margin-right: 10px;
+    }
+    .all-main-h1-pt h1{
+      font-size: 23px;
+    }
+    .all-main-h1-pt {
+      margin-top: 190px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+ 
+  
+  .all-main-h1-pt p{
+      font-size: 20px;
+      width: 300px;
+      font-weight: 500;
+  }
+  .all-slider img{
+      width:300px ;
+      height: 330px;
+  }
+  .all-slider{
+    width: 300px;
+      height:400px;
+  }
+  .all-button {
+      position: relative;
+      top: 400px;
+    }
+  
+    .all-section3-img-h1-p{
+      height: fit-content;
+      display: block;
+      margin-top: 30px;
+      height: fit-content;
+      /* border: 10px solid; */
+  
+    } 
+    .all-section3-img-h1-p img{
+      width:300px ;
+      height: 330px;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%);
+    }
+  
+  .sec3-h1-p{
+    width: 300px;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      transform: translateX(-50%);
+  }
+  
+  .sec3-h1-p h1{
+  font-size: 20px;
+  text-align: center;
+  }
+  .sec3-h1-p p{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .khd2 {
+      margin-left: -50px;
+      height: fit-content;
+  }
+  
+  
+  .sec4-h1-p {
+      width: 300px;
+      margin: 30px auto 30px auto;
+      height: fit-content;
+    }
+    .sec4-h1-p p {
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 20px;
+      font-weight: 370;
+      width: 300px;
+    }
+    .sec4-h1-p h1 {
+      font-size: 20px;
+      color: rgb(24, 24, 253);
+    }
+    
+    .all-sec4 img {
+      border-radius: 11px;
+      width:300px ;
+      height: 330px;
+      box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+    }
+  
+  
+    .sec5-end h2{
+      font-size: 21px;
+      width: 310px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .sec5-end button {
+      bottom: unset;
+      padding: 12px 13px;
+      border: none;
+      background-color: #6c757d;
+      font-size: 18px;
+      border-radius: 11px;
+      color: #fff;
+      font-weight: 600;
+      margin: 30px;
+      width: 200px;
+    }
+    .all-sec4{
+      margin-top: 40px;
+    }
+
+    div.scroll-container img {
+      padding: 10px;
+      width: 350px;
+      height: 500px;
+      border-radius: 5px;
+    }
+
+  
+
+ 
+    
+  }  
+  
+  
+  
+  
+  
+  
+
+@media (min-width:500px) and (max-width:1000px){
+    body{
+        width: 100%;
+        
+    }
+    .all-nav{
+        width: 100%;
+    }
+    .all-nav a {
+        width: 100%;
+        text-decoration: none;
+        color: rgb(24, 24, 253);
+        font-size: 18px;
+        padding: 10px;
+        transition: all 0.2s ease;
+        border-radius: 3px;
+        font-weight: 600;
+        font-family: "Alkatra", cursive;
+      }
+      .nav-lift a {
+        margin-left: 20px;
+      }
+      
+      .nav-right a {
+        margin-right: 30px;
+      }
+      .all-main-h1-pt {
+        margin-top: 190px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    .all-main-h1-pt{
+        width: 500px;
+        
+
+    }
+    
+    .all-main-h1-pt p{
+        font-size: 19px;
+        width: 480px;
+        font-weight: 600;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all-slider img{
+        width:450px ;
+        height: 370px;
+    }
+    .all-slider{
+        width: 450px;
+        height:400px;
+    }
+    .all-button {
+        position: relative;
+        top: 400px;
+      }
+    
+      .all-section3-img-h1-p{
+        display: block;
+        margin-top: 30px;
+    
+      } 
+      .all-section3-img-h1-p img{
+        margin-left: auto;
+        margin-right: auto;
+        width:470px ;
+        height: 370px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+      }
+    
+    .sec3-h1-p{
+        width: 450px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .sec3-h1-p h1{
+    font-size: 25px;
+    text-align: center;
+    }
+    .sec3-h1-p p{
+        height: 450px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 490px;
+    }
+    .khd2 {
+        margin-left: -50px;
+        height: fit-content;
+    }
+    
+    
+    .sec4-h1-p {
+        width: 450px;
+        margin: 30px auto 30px auto;
+      }
+      .sec4-h1-p p {
+        margin-right: auto;
+        margin-left: auto;
+        width: 490px;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      .sec4-h1-p h1 {
+        font-size: 25px;
+        color: rgb(24, 24, 253);
+      }
+      
+      .all-sec4 img {
+        border-radius: 11px;
+        width: 450px;
+        height: 370px;
+        box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+    
+      .sec5-end h2{
+        font-size: 22px;
+      }
+      .sec5-end button {
+        bottom: unset;
+        padding: 12px 17px;
+        border: none;
+        background-color: #6c757d;
+        font-size: 18px;
+        border-radius: 11px;
+        color: #fff;
+        font-weight: 600;
+        margin: 30px;
+        width: 300px;
+      }
+
+
+            /* imag of Our */
+         
+            .all-div-sec1-Our img{
+              margin-top: 10px;
+              height: 350px;
+              width: 250px;
+            }
+            /* imag of Our */
+            /* h1 */
+    
+    
+    }
+
+    /* midia of Our */
+
+
+
+    @media(max-width:500px){
+
+
+      /* imag of Our */
+      .aimg{
+        height: 220px;
+        width: 200px;
+      }
+      .img{
+        height: 220px;
+        width: 200px;
+      }
+      .all-div-sec1-Our img{
+        margin-top: 10px;
+      }
+      /* imag of Our */
+      /* h1 */
+
+
+
+      .Our-w3 h1{
+        font-size: 22px;  
+        color: rgb(24, 24, 253);
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 20px;
+        border-bottom: 3px solid  rgb(24, 24, 253);
+        font-family: 'Cairo Play', sans-serif;   
+        border-radius: 10px;
+
+    }
+    .Our-w3 h1:hover{
+  box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+
+    }
+
+
+    .sec2-Our h1{
+      text-align: center;
+      font-size: 22px;
+      margin-top: 50px;
+      border: none;
+      color: rgb(24, 24, 253);
+      font-weight: 600;
+      cursor: pointer;
+      border-bottom: 3px solid  rgb(24, 24, 253);
+      margin-bottom: 10px;
+      border-radius: 10px;
+      padding: 10px 17px;
+      
+     
+     
+    }
+    .sec2-Our h1:hover{
+  box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+
+    }
+
+      /* h1 */
+
+
+    }

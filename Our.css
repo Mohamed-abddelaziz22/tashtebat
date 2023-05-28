@@ -1,0 +1,340 @@
+::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  #5b5a66;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#5e57e7;
+  }
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-family: 'Cairo Play', sans-serif;
+  }
+  
+  body {
+    background-color: #b8bfc5;
+  
+    /* height: 2000px; */
+  }
+  /* start nav */
+  
+  .all-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 70px 0px rgb(24, 24, 253);
+    background-color: #e9ecef;
+    height: 120px;
+    border-radius: 0 0 50% 50%;
+    border: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+   width: 100%;
+   
+  }
+  
+  .all-nav a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(24, 24, 253);
+    font-size: 18px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    border-radius: 3px;
+    font-weight: 600;
+    font-family: "Alkatra", cursive;
+  }
+  
+  .nav-lift a {
+    margin-left: 50px;
+  }
+  
+  .nav-right a {
+    margin-right: 50px;
+  }
+  
+  .all-nav a:hover {
+    border-bottom: 2px solid rgb(24, 24, 253);
+  }
+  .nav-lift {
+    display: flex;
+    align-items: center;
+  }
+  .khd2 {
+    display: none;
+    overflow: hidden;
+    overflow: scroll;
+    position: absolute;
+    margin-left: -20px;
+    height: 500px;
+    z-index: 2;
+    margin-top: 20px;
+    padding-top: 10px;
+    background: linear-gradient(180deg, #ced4da, #6c757d);
+    border-radius: 11px;
+    box-shadow: 0px 0px 70px 0px rgba(24, 24, 253, 0.759);
+    height: fit-content;
+  }
+  .khd2 a {
+    margin: auto;
+    color: #000;
+  }
+  .khd2 a:hover {
+    box-shadow: 0px 0px 70px 0px rgba(24, 24, 253, 0.944);
+    border-radius: 11px;
+  }
+  .khd2 li {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 30px;
+    padding: 0;
+    display: block;
+  }
+  .khd a {
+    padding-bottom: 20px !important;
+    border-bottom: none !important;
+  }
+  
+  
+  .khd ul li h3{
+    color: rgb(24, 24, 253);
+  
+  }
+  /* end nav */
+  
+
+  /* start sec1-main */
+
+
+.sec1-Our{
+    margin-top: 200px;
+  }
+  .sec1-Our h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    border: none;
+    color: rgb(24, 24, 253);
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 50px;
+    border-bottom: 3px solid  rgb(24, 24, 253);
+    width: 200px;
+   
+  }
+  
+  
+  .all-div-sec1-Our {
+    display:flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid #6c757d; */
+    padding: 50px 0 50px 0;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+  }
+  .all-div-sec1-Our:hover{
+  box-shadow: 0px 0px 20px 1px rgba(24, 24, 253, 0.716);
+    
+  }
+  .aimg{
+    height: 550px;
+    width: 400px;
+  }
+  .img{
+    height: 700px;
+    width: 500px;
+  }
+  .all-div-sec1-Our img{
+    border-radius: 7px;
+    transition: all 0.3s linear;
+   
+  }
+  
+  .all-div-sec1-Our img:hover{
+
+   
+    transform: scale(1.1);
+  }
+
+  .sec1-Our button{
+    margin: 30px auto 30px auto;
+    display: block;
+    bottom: unset;
+    padding: 10px 17px;
+    border: none;
+    background: linear-gradient(180deg, #ced4da, #6c757d);
+    font-size: 18px;
+    border-radius: 11px;
+    color: rgb(24, 24, 253);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s linear;
+
+  }
+  .sec1-Our button:hover{
+    transform: scale(1.1);
+
+  }
+
+  /* end sec1-main */
+
+  /*  start sec2 */
+  .sec2-Our h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    border: none;
+    color: rgb(24, 24, 253);
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 3px solid  rgb(24, 24, 253);
+    width: 200px;
+   
+   
+  }
+
+  
+  /* end sec2 */
+
+
+
+
+  /* start footer_Our  */
+
+.sec5-end {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0 100px 0;
+    margin-top: 100px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .sec5-end a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding:  15px ;
+  }
+  .sec5-end h2 {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+  .sec5-end button {
+    bottom: unset;
+    padding: 12px 17px;
+    border: none;
+    background-color: #6c757d;
+    font-size: 18px;
+    border-radius: 11px;
+    color: #fff;
+    font-weight: 600;
+    margin: 50px;
+    width: 170px;
+  }
+  .sec5-end i{
+    font-size: 25px;
+   
+  }
+
+  .sec5-end button:hover {
+    background: linear-gradient(180deg, #88dcc3, #5b82a4);
+    cursor: pointer;
+  }
+  .sec5-end p{
+  font-size: 23px;
+  font-weight: 600; 
+  
+  }
+  /* end footer */
+  
+
+  /* w3Our */
+  .Our-w3{
+    margin-top: 200px;
+   
+  }
+  .Our-w3 h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 17px;
+    border: none;
+    color: rgb(24, 24, 253);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-bottom: 3px solid  rgb(24, 24, 253);
+    font-family: 'Cairo Play', sans-serif;  
+    width: 200px;
+}
+
+  div.scroll-container {
+    background-color: #81868a;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+ 
+    
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+  }
+
+  .scroll-container button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: unset;
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(180deg, #252627, #adb8c3);
+    font-size: 18px;
+    border-radius: 11px;
+    color: #fff;
+    font-weight: 600;
+   
+  }
+  .scroll-container a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding:  15px ;
+  }
+  
